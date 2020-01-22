@@ -1,0 +1,8 @@
+type Habit {
+  prev: String
+  then: String
+}
+
+type Query {
+  habits: [Habit]!
+}

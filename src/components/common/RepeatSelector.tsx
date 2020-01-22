@@ -69,7 +69,7 @@ const RepeatSelector: React.FC<Props> = ({onSelection}) => {
           active={selection === 8}
           onPress={() => {
             setSelection(8);
-            onSelection(1);
+            onSelection(8);
           }}
           title="Sun"
         />

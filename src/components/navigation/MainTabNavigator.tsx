@@ -49,6 +49,7 @@ const MainTabNavigator = () => {
               color={focused ? COLOR.PRIMARY : '#999'}
             />
           ),
+          tabBarVisible: false,
         }}
       />
       <Tab.Screen
